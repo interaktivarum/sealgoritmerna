@@ -85,7 +85,7 @@ export default {
             top: self.scrollElement.scrollHeight,
             behavior: 'smooth'
           });
-        }, 500) //Delay to load posts before calculating scrollHeight
+        }, 250) //Delay to load posts before calculating scrollHeight
       }(this))
         store.commit('setScroll',{scroll: false});
       }

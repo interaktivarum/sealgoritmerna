@@ -1,0 +1,369 @@
+{
+  "bubbles":[
+    {
+      "name": "Algot",
+      "image": "algot.jpg",
+      "posts": [
+        {
+          "text": "Visste du att 95% av Sveriges 12-15-åringar använder Snapchat?",
+          "images": [
+            {
+              "url": "posts/snapchat.jpeg",
+              "alt": "Mobiltelefon med Snapchat"
+            }
+          ]
+        },
+        {
+          "text": "Visste du att 100% av svenska 12-25-åringar år tittar på YouTube?",
+          "images": [
+            {
+              "url": "posts/youtube.jpeg",
+              "alt": "Mobiltelefon med YouTube"
+            }
+          ]
+        },
+        {
+          "text": "Visste du att, bland svenska 12-25-åringar, använder nästan 9 av 10 Instagram?",
+          "images": [
+            {
+              "url": "posts/instagram.jpeg",
+              "alt": "Mobiltelefon med Instagram"
+            }
+          ]
+        },
+        {
+          "text": "Visste du att, bland svenska 12-15-åringar, spelar 98% av pojkarna och 82% av flickorna spel över internet?",
+          "images": [
+            {
+              "url": "posts/mobiles.jpeg",
+              "alt": "Mobiltelefonanvändare"
+            }
+          ]
+        },
+        {
+          "text": "Visste du att nästan 90% av svenska 16-25-åringar handlar över internet?",
+          "images": [
+            {
+              "url": "posts/shopping.jpeg",
+              "alt": "Skyltdockor och reaskyltar"
+            }
+          ]
+        }
+      ],
+      "risks": [
+        "Algot lär dig om sociala medier och internet. Men vem är Algot egentligen och varifrån har han fått sin information? Kan du hitta andra sidor som bekräftar det Algot skriver? Hur kan du vara källkritisk till det du lär dig på webben?"
+      ],
+      "following": true,
+      "mandatory": true
+    },
+    {
+      "name": "Supermaten & hälsobomber",
+      "image": "food.jpg",
+      "posts": [
+        {
+          "text": "Mirakelnöten 🥥 Alla borde äta mer kokosolja och dricka kokosvatten!",
+          "images": [
+            {
+              "url": "posts/coconut.jpeg",
+              "alt": "Delade kokosnötter"
+            }
+          ]
+        },
+        {
+          "text": "Mirakelmaten 🙏 Omega-3-bomben som är proppfull med antioxidanter!",
+          "images": [
+            {
+              "url": "posts/chia.jpeg",
+              "alt": "Skålar med chiapudding"
+            }
+          ]
+        },
+        {
+          "text": "Goji superbäret 💕 Fulladdad med nyttigheter!",
+          "images": [
+            {
+              "url": "posts/goji.jpeg",
+              "alt": "Skål med goji och andra bär"
+            }
+          ]
+        },
+        {
+          "text": "Mums, spirulina 😍😍😍 Naturens allt-i-ett och en av världens mest kraftfulla näringskällor!",
+          "images": [
+            {
+              "url": "posts/spirulina.jpeg",
+              "alt": "Skål med spirulina"
+            }
+          ]
+        },
+        {
+          "text": "Tänk att det kryllar av dessa C-vitaminbomber i skogen! 🌲🌳🌲",
+          "images": [
+            {
+              "url": "posts/blueberry.jpeg",
+              "alt": "Skål med blåbär"
+            }
+          ]
+        }
+      ],
+      "risks": [
+        "Det finns mängder med bra sidor om mat och hälsa, med trovärdiga kost- och hälsoråd, men även många grupper och sidor som överdriver hälsoeffekten av trendig mat. Syftet kan vara att sälja fler produkter eller att få fler läsare till sin blogg eller tidning, genom att dra nytta av pågående hälsotrender."
+      ]
+    },
+    {
+      "name": "Katter är farliga",
+      "image": "cats-angry.jpg",
+      "posts": [
+        {
+          "text": "Det hänger alltid ett gäng obehagliga katter utanför min port. Jag blir rädd. Vad hade ni gjort?",
+          "images": [
+            {
+              "url": "posts/cats6.jpeg",
+              "alt": "Två katter på marken"
+            }
+          ]
+        },
+        {
+          "text": "Idag vid busshållplatsen såg jag en till arg katt! Det känns som de håller på att ta över!",
+          "images": [
+            {
+              "url": "posts/cats1.jpeg",
+              "alt": "En katt"
+            }
+          ]
+        },
+        {
+          "text": "Förra veckan blev min kompis anfallen, jag tror det var av en katt!",
+          "images": [
+            {
+              "url": "posts/wound.jpeg",
+              "alt": "Omplåstrat sår på en hand"
+            }
+          ]
+        },
+        {
+          "text": "Det är en kritvit katt som alltid stirrar så obehagligt på mig när jag går förbi!",
+          "images": [
+            {
+              "url": "posts/cats2.jpeg",
+              "alt": "En vit katt"
+            }
+          ]
+        },
+        {
+          "text": "Ibland när jag går hem känns det som jag typ blir förföljd. Av katter såklart.",
+          "images": [
+            {
+              "url": "posts/cats3.jpeg",
+              "alt": "En katt"
+            }
+          ]
+        }
+      ],
+      "risks": [
+        "Att läsa om, och se bilder på, arga katter känns kanske inte så farligt. Men vad skulle det innebära om du bytte ut katter mot ordningsvakter, personer med olika bakgrund eller någon annan grupp människor? Hur skulle din bild av de personerna påverkas?"
+      ]
+    },
+    {
+      "name": "Sluta klimathetsa",
+      "image": "nature.jpg",
+      "posts": [
+        {
+          "text": "Idag hade jag mössa. I mitten av maj! Klimatförändringarna är fejk! 🤣",
+          "images": [
+            {
+              "url": "posts/cold.jpeg",
+              "alt": "Frusen person med mössa"
+            }
+          ]
+        },
+        {
+          "text": "Jordens temperatur har alltid stigit! Det är inte människans fel. #slutaklimathetsa",
+          "images": [
+            {
+              "url": "posts/graph.jpeg",
+              "alt": "Graf på datorskärm"
+            }
+          ]
+        },
+        {
+          "text": "Nämen! Antarktis isar finns visst fortfarande kvar 🙄😉 #isarnasmälterinte",
+          "images": [
+            {
+              "url": "posts/glacier.jpeg",
+              "alt": "Glaciär"
+            }
+          ]
+        },
+        {
+          "text": "Temperaturen har inte stigit sedan 1998, trots alla varningar. Alla klimathetsare: 😱 Jag: 😌☕🌞",
+          "images": [
+            {
+              "url": "posts/coffee.jpeg",
+              "alt": "En kopp med kaffe"
+            }
+          ]
+        },
+        {
+          "text": "Djuren kan anpassa sig till ett varmare klimat. Det har de alltid gjort! #varförgällerintegammalforskning 😂",
+          "images": [
+            {
+              "url": "posts/dog.jpeg",
+              "alt": "En hund vid vattnet"
+            }
+          ]
+        }
+      ],
+      "risks": [
+        "Det finns många grupper och sidor likt denna, som sprider falska och ovetenskapliga påståenden och rykten om klimatet och våra utsläpp. Jordens klimat blir allt varmare på grund av våra utsläpp, det är de flesta forskare och experter överens om. Det kan ibland vara svårt att veta vem som talar sanning, men en bra utgångspunkt är att lyssna på de som faktiskt är experter!"
+      ]
+    },
+    {
+      "name": "Älska shopping",
+      "image": "shopping.jpg",
+      "posts": [
+        {
+          "text": "Idag spontanshoppade jag tre nya klänningar!",
+          "images": [
+            {
+              "url": "posts/dress.jpeg",
+              "alt": "Person i klänning"
+            }
+          ]
+        },
+        {
+          "text": "Inte för att jag behövde en till 😌 men idag köpte jag en galet snygg jeansjacka 💪😍",
+          "images": [
+            {
+              "url": "posts/jacket.jpeg",
+              "alt": "Person i jeansjacka"
+            }
+          ]
+        },
+        {
+          "text": "Idag köpte jag visst en till telefon 🤭😄",
+          "images": [
+            {
+              "url": "posts/phone.jpeg",
+              "alt": "Person som håller i en telefon"
+            }
+          ]
+        }
+
+
+      ],
+      "risks": [
+        "Att shoppa nya prylar kan vara roligt! Det innebär dock att fler produkter behöver produceras vilket innebär mer utsläpp. Att shoppa kläder och prylar man inte behöver kan alltså vara väldigt dåligt för klimatet. Hur känner du när dina vänner eller YouTubers visar upp vad de har köpt?"
+      ]
+    },
+    {
+      "name": "Flyg och restips",
+      "image": "airplane.jpg",
+      "posts": [
+        {
+          "text": "Min lunchutsikt igår 😍🌴",
+          "images": [
+            {
+              "url": "posts/beach.jpeg",
+              "alt": "Palmer på en solig strand"
+            }
+          ]
+        },
+        {
+          "text": "Fatta! Jag har flugit till fem olika länder senaste året!",
+          "images": [
+            {
+              "url": "posts/map.jpeg",
+              "alt": "Nålar på en karta"
+            }
+          ]
+        },
+        {
+          "text": "Dela med dig av ditt bästa restips!",
+          "images": [
+            {
+              "url": "posts/globe.jpeg",
+              "alt": "Finger pekar på en jordglob"
+            }
+          ]
+        },
+        {
+          "text": "Hej då 👋 påväg till andra sidan jorden ✈️ syns igen om en vecka!",
+          "images": [
+            {
+              "url": "posts/wing.jpeg",
+              "alt": "Utsikt från ett flygplan"
+            }
+          ]
+        },
+        {
+          "text": "Vart går din nästa resa?",
+          "images": [
+            {
+              "url": "posts/city.jpeg",
+              "alt": "Utsikt över New York"
+            }
+          ]
+        }
+      ],
+      "risks": [
+        "Att resa och se nya kulturer är ju roligt! Men att flyga orsakar stora koldioxidutsläpp och är därför väldigt dåligt för klimatet. Vad känner du när dina vänner och YouTubers lägger upp bilder och videor från sina utlandsresor?"
+      ]
+    },
+    {
+      "name": "Träning & hälsa",
+      "image": "gym.jpg",
+      "posts": [
+        {
+          "text": "Idag lyfte jag 80kg i bänkpress! 💪💪💪",
+          "images": [
+            {
+              "url": "posts/weight.jpeg",
+              "alt": "Skivstång med vikter"
+            }
+          ]
+        },
+        {
+          "text": "Igår sprang jag 2,3 mil på 1:40!",
+          "images": [
+            {
+              "url": "posts/runner.jpeg",
+              "alt": "Person framför skivstång med vikter"
+            }
+          ]
+        },
+        {
+          "text": "💪💪 DEFFA! 💪💪",
+          "images": [
+            {
+              "url": "posts/muscles.jpeg",
+              "alt": "Person med stora muskler"
+            }
+          ]
+        },
+        {
+          "text": "💪 Träna dig till den perfekta kroppen 💪",
+          "images": [
+            {
+              "url": "posts/muscleback.jpeg",
+              "alt": "Ryggmuskler"
+            }
+          ]
+        },
+        {
+          "text": "Inga ursäkter!",
+          "images": [
+            {
+              "url": "posts/weight2.jpeg",
+              "alt": "Person som lyfter en skivstång"
+            }
+          ]
+        }
+
+      ],
+      "risks": [
+        "Att träna är ofta bra för hälsan! Det är däremot inte hälsosamt ifall träningen övergår i osund kroppsfixering. Du är fin som du är!"
+      ]
+    }
+  ]
+}

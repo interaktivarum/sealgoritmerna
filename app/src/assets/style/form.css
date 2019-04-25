@@ -1,0 +1,21 @@
+button{
+  padding: 5px 10px 5px 10px;
+  background: green;
+  border: 1px solid green;
+  border-radius: 2px;
+  font-size: 1em;
+  cursor: pointer;
+  color: white;
+}
+
+button:hover:not(:disabled) {
+  background: forestgreen;
+  color: white;
+}
+
+button:disabled{
+  background: rgb(240,240,240);
+  border-color: lightgray;
+  color: gray;
+  cursor: default;
+}

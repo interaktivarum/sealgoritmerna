@@ -1,0 +1,284 @@
+{
+  "script": {
+    "items": [
+      {
+        "id": "initial",
+        "content": "<h3>Välkommen till Se algoritmerna!</h3><p>Jag heter Algot.</p><p>Vill du att jag lär dig om sociala medier?</p>",
+        "buttons": [
+          {
+            "text": "Ja, ladda några inlägg!",
+            "func": "initial_0"
+          },
+          {
+            "text": "Nej, jag vill utforska på egen hand",
+            "func": "initial_1"
+          },
+          {
+            "text": "Jag vill veta mer om verktyget",
+            "func": "initial_2"
+          }
+        ],
+        "images": [
+          {
+            "url": "posts/matrix.jpeg"
+          }
+        ]
+      },
+      {
+        "id": "unguided",
+        "content": "<p>Vad vill du göra?</p>",
+        "buttons": [
+          {
+            "text": "Ladda 10 nya inlägg",
+            "func": "unguided_0"
+          },
+          {
+            "text": "Ladda 100 nya inlägg",
+            "func": "unguided_1"
+          },
+          {
+            "text": "Börja om från början",
+            "func": "unguided_2"
+          }
+        ]
+      },
+      {
+        "id": "about",
+        "content": "<p>Se algoritmerna! är en webbplats som förklarar hur sociala medier fungerar under huven, och som låter dig fundera hur du själv påverkas av dina sociala flöden.</p><p>Genom ett påhittat socialt flöde visar verktyget hur algoritmer styr vad du som användare får se, och hur dina egna surfmönster påverkar vilken information som du får ta del av. När du interagerar med innehållet påverkar du vilka inlägg som kommer att visas framöver - precis som i riktiga sociala medier.</p><p>Fotografierna som används till de sociala inläggen kommer från Unsplash.com och är släppta under öppen licens.</p><p>Se algoritmerna! är designat och utvecklat av Interaktiva rum för Arbetets Museum som en del av vandringsutställningen Det resande demokratilabbet.</p><p>Hur vill du fortsätta?</p>",
+        "buttons": [
+          {
+            "text": "Jag vill bli guidad genom verktyget",
+            "func": "about_0"
+          },
+          {
+            "text": "Jag vill utforska på egen hand",
+            "func": "initial_1"
+          }
+        ],
+        "images": [
+          {
+            "url": "logos/interaktiva-rum.png",
+            "alt": "Interaktiva rum",
+            "href": "https://interaktivarum.se"
+          },
+          {
+            "url": "logos/arbetetsmuseum.png",
+            "alt": "Arbetets Museum",
+            "href": "https://arbetetsmuseum.se"
+          },
+          {
+            "url": "logos/demokratilabbet.jpg",
+            "alt": "Det resande demokratilabbet"
+          }
+        ]
+      },
+      {
+        "id": "guided",
+        "content": "<p>Absolut! Vi börjar med att lada några inlägg.</p>",
+        "buttons": [
+          {
+            "text": "Ladda några inlägg",
+            "func": "initial_0"
+          }
+        ]
+      },
+      {
+        "id": "pages",
+        "content": "<p>Längst upp på skärmen ser du olika sidor som går att följa.</p><p>De representeras av bubblor i olika storlekar.</p><p>Klicka på en bubbla för att följa en ny sida.</p>",
+        "buttons": [
+          {
+            "text": "Jag förstår!",
+            "func": "pages_0"
+          }
+        ]
+      },
+      {
+        "id": "single",
+        "content": "<p>Än så länge följer du bara en enda sida.</p><p>Du kommer därför främst att se inlägg därifån.</p>",
+        "buttons": [
+          {
+            "text": "Ok, ladda några fler inlägg!",
+            "func": "single_0"
+          }
+        ]
+      },
+      {
+        "id": "size",
+        "content": "<p>En stor bubbla innebär en stor chans att nya inlägg kommer från den sidan, och en liten bubbla innebär en mindre chans.</p><p>Sidor som du följer har större bubblor.</p>",
+        "buttons": [
+          {
+            "text": "Ok, jag förstår!",
+            "func": "size_0"
+          },
+          {
+            "text": "Jag vill testa, ladda 10 inlägg!",
+            "func": "size_1"
+          }
+        ]
+      },
+      {
+        "id": "followMore",
+        "content": "<p>Följ tre sidor för att fortsätta.</p>",
+        "buttons": [
+          {
+            "text": "Ok!",
+            "func": "followMore_0"
+          }
+        ]
+      },
+      {
+        "id": "loadMany",
+        "content": "<p>När du laddar nya inlägg så får du framförallt information från sidor du följer.</p><p>Det blir särskilt tydligt om vi laddar många nya inlägg.</p>",
+        "buttons": [
+          {
+            "text": "Ladda 100 inlägg",
+            "func": "loadMany_0"
+          },
+          {
+            "text": "Ladda 250 inlägg",
+            "func": "loadMany_1"
+          }
+        ]
+      },
+      {
+        "id": "graph",
+        "content": "<p>I grafen längst ner på sidan ser du hur många inlägg från varje sida som har visats i ditt flöde.</p><p>Har du fått flest inlägg från sidor som du följer?</p>",
+        "buttons": [
+          {
+            "text": "Ja!",
+            "func": "graph_0"
+          },
+          {
+            "text": "Nej, ladda 100 inlägg till",
+            "func": "graph_1"
+          }
+        ]
+      },
+      {
+        "id": "benefits",
+        "content": "<p>Att få inlägg från sidor du själv har valt att följa kan vara väldigt bekvämt.</p><p>Det innebär att du får ta del av information som du själv gillar, och slipper se en massa annat som du inte är intresserad av.</p>",
+        "buttons": [
+          {
+            "text": "Ja, det är ju toppen!",
+            "func": "benefits_0"
+          },
+          {
+            "text": "Jo, men...",
+            "func": "benefits_1"
+          }
+        ]
+      },
+      {
+        "id": "risks",
+        "content": "<p>En baksida med personligt anpassade flöden är att du riskerar att missa andra perspektiv och annan typ av information.</p>",
+        "buttons": [
+          {
+            "text": "Ge mig ett exempel!",
+            "func": "risks_0"
+          }
+        ]
+      },
+      {
+        "id": "risksUnderstand",
+        "content": "",
+        "buttons": [
+          {
+            "text": "Jag förstår riskerna!",
+            "func": "risksUnderstand_0"
+          },
+          {
+            "text": "Ge mig ett till exempel",
+            "func": "risksUnderstand_1"
+          }
+        ]
+      },
+      {
+        "id": "interact",
+        "content": "<p>Bra!</p><p>Utöver att få mycket inlägg från sidor som du följer, får du se extra många inlägg från sidor som du interagerar mycket med.</p><p>Det kan handla om inlägg som du gillar, kommenterar eller klickar vidare på.</p>",
+        "buttons": [
+          {
+            "text": "Ok, jag vill testa!",
+            "func": "interact_0"
+          }
+        ]
+      },
+      {
+        "id": "likeInit",
+        "content": "<p>Absolut!</p><p>Vi börjar med att ladda 20 nya inlägg.</p>",
+        "buttons": [
+          {
+            "text": "Ladda 20 inlägg",
+            "func": "likeInit_0"
+          }
+        ]
+      },
+      {
+        "id": "like",
+        "content": "<p>Testa att klicka 👍 på några av inläggen i flödet, och lägg märke till hur bubblorna ändrar storlek längst upp på sidan.</p>",
+        "buttons": [
+          {
+            "text": "Ok, jag ser och förstår!",
+            "func": "like_0"
+          },
+          {
+            "text": "Påminn mig om vad bubblorna betyder!",
+            "func": "like_1"
+          }
+        ]
+      },
+      {
+        "id": "sizeReminder",
+        "content": "<p>Storleken på bubblorna visar hur stor chans det är att nya inlägg kommer från just den sidan.</p><p>En stor bubbla innebär en stor chans att nya inlägg kommer från en sida, och en liten bubbla innebär en mindre chans.</p>",
+        "buttons": [
+          {
+            "text": "Ok, nu förstår jag!",
+            "func": "like_0"
+          }
+        ]
+      },
+      {
+        "id": "likeLoad",
+        "content": "<p>När du nu laddar nya inlägg så är chansen stor att de tillhör en sida vars bubbla är stor. Det vill säga en sida som du följer och som du har interagerat mycket med.</p><p>Notera i grafen nedan att nya inlägg kommer från just dessa sidor.",
+        "buttons": [
+          {
+            "text": "Ok, ladda 100 inlägg",
+            "func": "likeLoad_0"
+          }
+        ]
+      },
+      {
+        "id": "summary",
+        "content": "<p>Sammanfattning: när du surfar på sociala medier får du framförallt se inlägg från sidor som du följer, samt från sidor som du interagerar mycket med.</p><p>Personliga flöden innebär många fördelar, men även risker.</p>",
+        "buttons": [
+          {
+            "text": "Jag förstår!",
+            "func": "summary_0"
+          },
+          {
+            "text": "Ok! Men hur funkar det på andra sociala medier?",
+            "func": "summary_0"
+          },
+          {
+            "text": "Ladda 100 inlägg till",
+            "func": "summary_1"
+          }
+        ]
+      },
+      {
+        "id": "finish",
+        "content": "<p>Det här verktyget är en förenkling av riktiga sociala medier. Många sociala medier använder artificiell intelligens för sina rekommendationer.</p><p>Nästa gång du använder till exempel Instagram, Snaphat, YouTube eller Facebook, fundera på vilken information just du får se. Jämför gärna med dina kompisar!</p><p>Finns det några viktiga perspektiv som inte dyker upp i ditt eller dina kompisars flöden?</p>",
+        "buttons": [
+          {
+            "text": "Intressant, det ska jag fundera över!",
+            "func": "finish_0"
+          },
+          {
+            "text": "Nu vill jag utforska fritt",
+            "func": "finish_0"
+          }
+        ]
+      }
+    ]
+  }
+
+}

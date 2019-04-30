@@ -104,7 +104,9 @@ export const store = new Vuex.Store({
     },
 
     repeatSavedPost: (state, {}) => {
-      console.log(state.savedPost)
+
+      state.bubbles[state.savedPost.bubbleId].postCount++;
+
       if(state.savedPost){
         state.feed.posts.push(state.savedPost);
       }

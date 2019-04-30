@@ -44,7 +44,7 @@
             👍
           </button>
 
-          <button v-for="button in post.buttons" @click="performButtonAction(button,$event)">
+          <button v-for="button in post.buttons" @click="performButtonAction(button,$event)" :class="button.class">
             {{button.text}}
           </button>
         </div>
@@ -142,7 +142,7 @@ export default {
 .notification{
   border-top-width: 20px;
   padding: 10px;
-  box-shadow: 3px 3px 3px gray;
+  box-shadow: 3px 3px 0px darkred;
   /*background: coral !important;*/
 }
 
@@ -206,6 +206,7 @@ export default {
   border: 0px solid gray;
   box-sizing: border-box;
   flex: 1;
+  /*height: 400px;*/
   overflow-y: hidden;
 }
 
@@ -215,7 +216,6 @@ export default {
 
 .images div img{
   width: 100%;
-
 }
 
 .body{

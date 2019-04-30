@@ -1,7 +1,7 @@
 <template>
   <div class="Feed">
 
-    <feed-post :post="post" v-for="post in feed.posts" class="post">
+    <feed-post :post="post" v-for="post in feed.posts" class="post" tabindex="0">
     </feed-post>
 
     <!--feed-loader></feed-loader-->
@@ -40,25 +40,22 @@ export default {
     }
   },
   watch: {
-    /*length: function (val) {
-      if(store.state.scroll){
-        this.$nextTick(function (self) {
-          setTimeout(function () {
-          self.scrollElement.scrollTo({
-            top: self.scrollElement.scrollHeight,
-            behavior: 'smooth'
-          });
-        }, 100) //Delay to load posts before calculating scrollHeight
-      }(this))
-        store.commit('setScroll',{scroll: false});
-      }
-    }*/
+    length: function (val) {
+      this.$nextTick(function () {
+        this.setFocusToLastPost()
+      })
+    }
   },
   methods: {
 
     loadPosts: function () {
       store.commit('initLoadPosts',{nPosts: 10});
     },
+    setFocusToLastPost: function () {
+      let posts = this.$el.getElementsByClassName('post');
+      let last = posts[posts.length - 1];
+      last.focus({'preventScroll': true});
+    }
 
   },
   created () {

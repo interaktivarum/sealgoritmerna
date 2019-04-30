@@ -8,14 +8,20 @@ button{
   color: white;
 }
 
+button.second-choice:not(:hover){
+  background: white;
+  color: black;
+  border-color: gray;
+}
+
 button:hover:not(:disabled) {
   background: forestgreen;
   color: white;
 }
 
 button:disabled{
-  background: rgb(240,240,240);
-  border-color: lightgray;
-  color: gray;
+  background: rgb(240,240,240) !important;
+  border-color: lightgray !important;
+  color: gray !important;
   cursor: default;
 }

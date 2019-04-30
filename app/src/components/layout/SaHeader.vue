@@ -2,9 +2,7 @@
   <div class="SaHeader">
 
     <three-cols class="cols">
-      <h1>
-        Se algoritmerna!
-      </h1>
+      <img src="/static/graphics/se-algoritmerna-logo_1_line.png" @click="resetFeed"/>
     </three-cols>
 
 
@@ -13,7 +11,7 @@
 
 <script>
 
-//import { store } from '@/store';
+import { store } from '@/store';
 //import Component from '@/components/Component'
 
 import ThreeCols from '@/components/ThreeCols'
@@ -32,6 +30,10 @@ export default {
   computed: {
   },
   methods: {
+    resetFeed: function () {
+      store.commit('resetFeed',{});
+      store.commit('pushScriptItemToFeed',{id: "initial"});
+    }
   },
   mounted: function () {
   }
@@ -41,11 +43,15 @@ export default {
 <style scoped>
 
 .SaHeader{
-  background: rgb(230,230,230);
+  padding: 5px;
 }
 
 .cols{
-  padding-left: 10px;
+}
+
+img{
+  width: 100%;
+  cursor: pointer;
 }
 
 </style>

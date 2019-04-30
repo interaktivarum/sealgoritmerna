@@ -81,12 +81,18 @@ export default {
       if(store.state.scroll){
         this.$nextTick(function (self) {
           setTimeout(function () {
-          self.scrollElement.scrollTo({
-            top: self.scrollElement.scrollHeight,
-            behavior: 'smooth'
-          });
-        }, 250) //Delay to load posts before calculating scrollHeight
-      }(this))
+            self.scrollElement.scrollBy({
+              top: 1000,
+              behavior: 'smooth'
+            });
+          }, 0)
+          setTimeout(function () {
+            self.scrollElement.scrollTo({
+              top: self.scrollElement.scrollHeight,
+              behavior: 'smooth'
+            });
+          }, 1000) //Delay to load posts before calculating scrollHeight
+        }(this))
         store.commit('setScroll',{scroll: false});
       }
     }
@@ -113,11 +119,13 @@ export default {
   display: flex;
   flex-direction: column;
   background: #eeeeee;
+  scroll-behavior: smooth;
 }
 
 .threecols{
   flex: 1;
   overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 .left, .right {

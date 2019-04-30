@@ -1,7 +1,7 @@
 <template>
   <div id="app">
 
-    <!--sa-header id="header"></sa-header-->
+    <sa-header id="header"></sa-header>
 
     <router-view id="router"/>
     <!--sa-footer id="footer"></sa-footer-->

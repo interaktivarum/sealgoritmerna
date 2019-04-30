@@ -11,17 +11,16 @@
           },
           {
             "text": "Nej, jag vill utforska på egen hand",
-            "func": "initial_1"
+            "func": "initial_1",
+            "class": "second-choice"
           },
           {
             "text": "Jag vill veta mer om verktyget",
-            "func": "initial_2"
+            "func": "initial_2",
+            "class": "second-choice"
           }
         ],
         "images": [
-          {
-            "url": "posts/matrix.jpeg"
-          }
         ]
       },
       {
@@ -44,7 +43,7 @@
       },
       {
         "id": "about",
-        "content": "<p>Se algoritmerna! är en webbplats som förklarar hur sociala medier fungerar under huven, och som låter dig fundera hur du själv påverkas av dina sociala flöden.</p><p>Genom ett påhittat socialt flöde visar verktyget hur algoritmer styr vad du som användare får se, och hur dina egna surfmönster påverkar vilken information som du får ta del av. När du interagerar med innehållet påverkar du vilka inlägg som kommer att visas framöver - precis som i riktiga sociala medier.</p><p>Fotografierna som används till de sociala inläggen kommer från Unsplash.com och är släppta under öppen licens.</p><p>Se algoritmerna! är designat och utvecklat av Interaktiva rum för Arbetets Museum som en del av vandringsutställningen Det resande demokratilabbet.</p><p>Hur vill du fortsätta?</p>",
+        "content": "<p>Se algoritmerna! är en webbplats som förklarar hur sociala medier fungerar under huven, och som låter dig fundera hur du själv påverkas av dina sociala flöden.</p><p>Genom ett påhittat socialt flöde visar verktyget hur algoritmer styr vad du som användare får se, och hur dina egna surfmönster påverkar vilken information som du får ta del av. När du interagerar med innehållet påverkar du vilka inlägg som kommer att visas framöver - precis som i riktiga sociala medier.</p><p>Informationen som presenteras baseras bland annat på material från Statens Medieråd samt Internetstiftelsens rapport Svenskarna och internet 2018.</p><p>Fotografierna som används till de sociala inläggen kommer från Unsplash.com och är släppta under öppen licens.</p><p>Se algoritmerna! är designat och utvecklat av Interaktiva rum för Arbetets Museum som en del av vandringsutställningen Det resande demokratilabbet.</p><p>Hur vill du fortsätta?</p>",
         "buttons": [
           {
             "text": "Jag vill bli guidad genom verktyget",
@@ -52,7 +51,8 @@
           },
           {
             "text": "Jag vill utforska på egen hand",
-            "func": "initial_1"
+            "func": "initial_1",
+            "class": "second-choice"
           }
         ],
         "images": [
@@ -74,7 +74,7 @@
       },
       {
         "id": "guided",
-        "content": "<p>Absolut! Vi börjar med att lada några inlägg.</p>",
+        "content": "<p>Absolut! Vi börjar med att ladda några inlägg.</p>",
         "buttons": [
           {
             "text": "Ladda några inlägg",

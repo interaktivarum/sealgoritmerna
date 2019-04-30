@@ -37,8 +37,8 @@ export const store = new Vuex.Store({
       }*/
 
       bubbles.bubbles.forEach((bubble,iBubble) => {
-        let color = "#"+convert.hsv.hex(iBubble * 300 / nBubbles + 330, 10, 100);
-        let colorBorder = "#"+convert.hsv.hex(iBubble * 300 / nBubbles + 330, 100, 80);
+        let color = "#"+convert.hsv.hex(iBubble * 135, 10, 100);
+        let colorBorder = "#"+convert.hsv.hex(iBubble * 135, 100, 80);
         //let color = "#ffffff";
         //let colorBorder = "#cccccc";
         state.bubbles.push(Factory.Bubble({
@@ -180,8 +180,7 @@ export const store = new Vuex.Store({
     },
 
     getBubbleRandom: state => () => {
-      let bubbles = state.bubbles.filter(bubble => !bubble.mandatory);
-      return bubbles[Math.floor(Math.random()*bubbles.length)];
+      return state.bubbles[Math.floor(Math.random()*state.bubbles.length)];
     }
 
   },

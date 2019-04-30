@@ -117,7 +117,7 @@
         store.commit('setScroll',{scroll: true});
         let bubble = store.getters.getBubbleBiggest();
 
-        let content = "<p>Du har mycket inlägg från sidan: " + bubble.name + ".</p>";
+        let content = "<p>I ditt flöde här ovanför har du mycket inlägg från sidan: " + bubble.name + ".</p>";
         content += "<p>" + bubble.risks[0] + "</p>";
         content += "<p>Fundera på om det finns några perspektiv du eller dina vänner inte får ta del av i era flöden.</p>";
 

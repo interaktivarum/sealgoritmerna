@@ -17,6 +17,19 @@
         store.commit('setScroll',{scroll: true});
         store.commit('pushScriptItemToFeed',{id: "about"});
       },
+      'logo_0': function () {
+        let posts = document.getElementsByClassName('post');
+        posts[0].focus();
+      },
+      'logo_1': function () {
+        store.commit('resetFeed',{});
+        store.commit('pushScriptItemToFeed',{id: "initial"});
+      },
+      'logo_2': function () {
+        store.commit('setScroll',{scroll: true});
+        //console.log(store.state.lastScriptItemId)
+        store.commit('repeatSavedPost',{});
+      },
       'unguided_0': function () {
         store.commit('setScroll',{scroll: true});
         store.commit('finishLoadPosts',{nPosts: 10});

@@ -24,6 +24,26 @@
         ]
       },
       {
+        "id": "logo",
+        "content": "<p>Vad vill du göra?</p>",
+        "buttons": [
+          {
+            "text": "Scrolla till toppen",
+            "func": "logo_0"
+          },
+          {
+            "text": "Börja om från början",
+            "func": "logo_1"
+          },
+          {
+            "text": "Fortsätt",
+            "func": "logo_2"
+          }
+        ],
+        "images": [
+        ]
+      },
+      {
         "id": "unguided",
         "content": "<p>Vad vill du göra?</p>",
         "buttons": [

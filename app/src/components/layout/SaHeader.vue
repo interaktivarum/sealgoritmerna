@@ -31,8 +31,9 @@ export default {
   },
   methods: {
     resetFeed: function () {
-      store.commit('resetFeed',{});
-      store.commit('pushScriptItemToFeed',{id: "initial"});
+      store.commit('setScroll',{scroll: true});
+      //store.commit('resetFeed',{});
+      store.commit('pushScriptItemToFeed',{id: "logo", dontSave: true});
     }
   },
   mounted: function () {

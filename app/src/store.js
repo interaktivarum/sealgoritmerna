@@ -16,7 +16,8 @@ export const store = new Vuex.Store({
     bubbles: "",
     script: "",
     loadingPosts: true,
-    scroll: false
+    scroll: false,
+    savedPost: ""
   },
   mutations: {
 
@@ -80,19 +81,33 @@ export const store = new Vuex.Store({
       state.loadingPosts = false;
     },
 
-    pushScriptItemToFeed: (state, {id,content}) => {
+    pushScriptItemToFeed: (state, {id,content,dontSave}) => {
 
       let item = state.script.script.items.find(item => item.id == id);
 
-      state.feed.posts.push(Factory.FeedPost({
+      let post = Factory.FeedPost({
         bubbleId: 0,
         body: content ? content : item.content,
         buttons: item.buttons,
         notification: true,
         images: item.images
-      }));
+      })
+
+      state.feed.posts.push(post);
 
       state.bubbles[0].postCount++;
+
+      if(!dontSave){
+        state.savedPost = post;
+      }
+
+    },
+
+    repeatSavedPost: (state, {}) => {
+      console.log(state.savedPost)
+      if(state.savedPost){
+        state.feed.posts.push(state.savedPost);
+      }
     },
 
     pushToFeed: (state, {nPosts}) => {

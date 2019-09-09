@@ -153,7 +153,7 @@ export default {
 
 .feed{
   flex: 1;
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
 }
 
 .bubbles{

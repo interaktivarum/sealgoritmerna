@@ -69,7 +69,7 @@ export default {
 <style scoped>
 
 .Feed{
-  overflow-y: scroll;
+  /*overflow-y: scroll;*/
 }
 
 .post{
